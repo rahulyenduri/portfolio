@@ -20,7 +20,7 @@ const Experience = () => {
 
           <div className={toggleState === 2 ? "qualification__button qualification__active button--flex" : "qualification__button button--flex"} onClick={() => toggleTab(2)}>
             <i className="uil uil-briefcase-alt qualification__icon"></i>
-            Experience
+            Professional
           </div>
 
         </div>
@@ -52,7 +52,7 @@ const Experience = () => {
                 <h3 className="qualification__title">Bachelors in Computer Science</h3>
                 <span className="qualification__subtitle">SRKR Engineering College</span>
                 <div className="qualification__calendar">
-                <i className="uil uil-calendar-alt"></i> Sept 2023 - Mar 2025
+                <i className="uil uil-calendar-alt"></i> Aug 2017 - Jul 2021
                 </div>
               </div>
             </div>
