@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./experience.css";
 
 const Experience = () => {
-  const [toggleState, setToggleState] = useState(1);
+  const [toggleState, setToggleState] = useState(2);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalContent, setModalContent] = useState(null);
 
@@ -10,19 +10,16 @@ const Experience = () => {
     setToggleState(index);
   }
 
-  // Function to open the modal with specific content
   const openModal = (content) => {
     setModalContent(content);
     setIsModalOpen(true);
   }
 
-  // Function to close the modal
   const closeModal = () => {
     setIsModalOpen(false);
     setModalContent(null);
   }
 
-  // Masters Content
   const MastersContent = () => (
     <div>
       <h3>Masters in Computer Science</h3>
@@ -33,53 +30,67 @@ const Experience = () => {
         <li>Data Structures and Algorithms</li>
         <li>Advanced Data Science</li>
         <li>Compilers</li>
+        <li>System Design</li>
       </ul>
-      <br/>
-      <p>This program allowed me to develop expertise in various advanced
-        computer science topics. My thesis is focused on the application of
-        machine learning models in large-scale data environments. </p>
+      <p className="main-info">This program allowed me to develop expertise in various advanced
+        computer science topics such as advanced data structures, algorithms, compilers, advanced data science topics including information retrieval and big data techniques. My research is focused on incremental compilation of compilers. I'm developing a project that is a proof of concept for a compiler that can handle incremental compilation effectively. Built a big data project on spatial data intersection and developed GPU and AI projects. </p>
     </div>
   )
 
-  // Bachelors Content
   const BachelorsContent = () => (
     <div>
       <h3>Bachelors in Computer Science</h3>
-      <p>SRKR Engineering College (Sept 2017 - Mar 2021)</p>
-      <h4>Major Projects:</h4>
-      <ul>
-        <li>System Design</li>
-        <li>Data Analytics</li>
+      <p className="subtitle-location">SRKR Engineering College (Aug 2017 - Jul 2021)</p>
+      <br/>
+      <h4>Key Focus Areas:</h4>
+      <ul className="custom-bullets">
+        <li>Data Structures</li>
+        <li>PL/SQL and Database Design</li>
         <li>Cloud Computing</li>
       </ul>
-      <p>During my undergraduate studies, I focused on ...</p>
+      <p className="main-info">During my undergraduate studies, I focused on developing core Computer Science topics such as programming languages, data structures, algorithms, databases, cloud technologies, fundamentals of data science, IoT, cyber security, mathematics and statistics. I developed various projects that covered wide range of tech stacks during my tenure that helped me gain a hands-on knowledge with building tools of software.</p>
     </div>
   )
 
-  // Graduate Teaching Assistant Content
   const TeachingAssistantContent = () => (
     <div>
       <h3>Graduate Teaching Assistant</h3>
-      <p>University of California, Riverside (Mar 2024 - Dec 2024)</p>
+      <p className="subtitle-location">University of California, Riverside (Mar 2024 - Dec 2024)</p>
+      <br/>
+      <p>Courses Lectured: Database Management Systems, Introduction to computing, Deep Learning.</p>
+      <br/>
       <h4>Responsibilities:</h4>
-      <ul>
-        <li>Assisting in Algorithms and Data Structures classes</li>
-        <li>Grading assignments and holding office hours</li>
-        <li>Providing mentorship to students</li>
+      <br/>
+      <ul className="custom-bullets">
+        <li>Designed and conducted labs for Database Management Systems, covering ER diagrams, SQL queries, and database projects.</li>
+        <li>Taught students deep learning methods and guided them on developing the right models and networks based upon the datasets and learning rates.</li>
+        <li>Created lab materials and assignments, ensuring alignment with course objectives and enhancing practical application of theoretical concepts.</li>
+        <li>Taught foundational computing concepts, including building basic web pages with HTML and CSS, and introduced essential programming principles and computing tools to beginners, fostering a solid understanding of computing basics.</li>
+        <li>Evaluated student performance through quizzes, lab assignments, and projects.</li>
+        <li>Provided constructive feedback and contributed to fair and consistent grading processes, ensuring student improvement and understanding.</li>
       </ul>
     </div>
   )
 
-  // Business & Data Analyst Content
   const AnalystContent = () => (
     <div>
       <h3>Business & Data Analyst</h3>
-      <p>ZS Associates (Oct 2021 - Jul 2023)</p>
+      <p className="subtitle-location">ZS Associates (Oct 2021 - Jul 2023)</p>
+      <br/>
+      <p>Skills gained: Amazon Web Services(AWS), PySpark, PostgreSQL, Python, Apache Airflow, ETL, Business Development, Data Engineering, Database and System Design, BitBucket.</p>
+      <br/>
       <h4>Key Responsibilities:</h4>
-      <ul>
-        <li>Analyzing business data for strategic decision-making</li>
-        <li>Designing and implementing BI solutions</li>
-        <li>Collaborating with cross-functional teams</li>
+      <br/>
+      <ul className="custom-bullets">
+        <li>In my previous role as a Business Analyst and Data Engineer, I was instrumental in driving multiple high-impact projects across both client-facing and internal operations, delivering innovative business solutions that enhanced performance and efficiency.</li>
+        <li>One of my key achievements was designing and developing a data migration tool that achieved an outstanding <strong>95% efficiency and 100% data accuracy</strong>, significantly benefiting clients and our company. This tool, utilizing <strong>AWS for database and backend and Salesforce for frontend</strong>, not only streamlined complex migration processes but also saved the company over <strong>50 man-hours per week</strong>, translating into <strong>hundreds of thousands of dollars</strong> in operational savings annually.</li>
+        <li>Additionally, I spearheaded the implementation of an <strong>AWS-based alignment generation tool</strong>, <strong>boosting data processing efficiency by 25%</strong>. This solution has since become a <strong>cornerstone of our flagship product</strong>, directly contributing to product quality and speed. Another noteworthy contribution was developing a <strong>Root Cause Analysis automation tool</strong>, which eliminated weeks of manual effort and resulted in <strong>significant cost reductions and productivity gains</strong>.</li>
+        <li>
+        These projects enabled me to deepen my <strong>expertise in cloud technologies, particularly AWS</strong>, and solidified my role as a key contributor to technical innovations. Furthermore, I took pride in mentoring new team members, accelerating their ramp-up time while ensuring the delivery of high-quality solutions through a <strong>deep understanding of business challenges</strong>.
+        </li>
+        <li>My work also included creating <strong>comprehensive reports and design documents</strong> that facilitated seamless communication between internal teams and clients, ensuring alignment and clarity in project execution.</li>
+        <li>This version emphasizes the impact of your contributions in terms of time and cost savings while enhancing the overall tone to make it more engaging and result-oriented.</li>
+        <strong></strong>
       </ul>
     </div>
   )
@@ -92,6 +103,18 @@ const Experience = () => {
         <div className="qualification__tabs">
           <div
             className={
+              toggleState === 2
+                ? "qualification__button qualification__active button--flex"
+                : "qualification__button button--flex"
+            }
+            onClick={() => toggleTab(2)}
+          >
+            <i className="uil uil-briefcase-alt qualification__icon"></i>
+            Professional Work
+          </div>
+
+          <div
+            className={
               toggleState === 1
                 ? "qualification__button qualification__active button--flex"
                 : "qualification__button button--flex"
@@ -101,22 +124,9 @@ const Experience = () => {
             <i className="uil uil-graduation-cap qualification__icon"></i>
             Education
           </div>
-
-          <div
-            className={
-              toggleState === 2
-                ? "qualification__button qualification__active button--flex"
-                : "qualification__button button--flex"
-            }
-            onClick={() => toggleTab(2)}
-          >
-            <i className="uil uil-briefcase-alt qualification__icon"></i>
-            Experience
-          </div>
         </div>
 
         <div className="qualification__sections">
-          {/* Education Section */}
           <div
             className={
               toggleState === 1
@@ -158,7 +168,6 @@ const Experience = () => {
             </div>
           </div>
 
-          {/* Experience Section */}
           <div
             className={
               toggleState === 2
@@ -200,7 +209,6 @@ const Experience = () => {
         </div>
       </div>
 
-      {/* Modal */}
       {isModalOpen && (
         <div className="modal">
           <div className="modal__content">

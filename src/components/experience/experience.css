@@ -1,3 +1,7 @@
+.qualification {
+
+}
+
 .qualification__container {
   max-width: 768px;
 }
@@ -120,6 +124,12 @@
 
 .modal__content .custom-bullets li {
   list-style-type: square;
+  text-align: justify;
+  padding-bottom: 0.75rem;
+}
+
+.modal__content .main-info {
+  text-align: justify;
 }
 
 .modal__close {
@@ -188,6 +198,11 @@
 @media screen and (max-width: 350px) {
   .qualification__data {
     gap: 0.5rem
+  }
+
+  .qualification__container {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
 }
 

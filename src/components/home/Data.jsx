@@ -7,20 +7,16 @@ let currentRole = 0;
 function changeRole() {
   const roleElement = document.getElementById("role");
 
-  // Slide out the current text
   roleElement.style.animation = "slide-out 0.5s forwards";
 
-  // After the slide-out animation, change the text and slide in the new role
   setTimeout(() => {
     currentRole = (currentRole + 1) % roles.length;
     roleElement.textContent = roles[currentRole];
 
-    // Trigger the slide-in animation after the text change
     roleElement.style.animation = "slide-in 0.5s forwards";
-  }, 500); // Time to complete the slide-out animation
+  }, 500);
 }
 
-// Change the role every 3 seconds to give time for the new role to stay visible
 setInterval(changeRole, 2000);
   return (
    <div className="home__data">
