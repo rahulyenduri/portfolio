@@ -5,6 +5,7 @@ import CV from "../../assets/Rahul_Yenduri_Resume.pdf";
 import Info from "./Info";
 
 const About = () => {
+
   return (
     <section className="about section" id="about">
       <h2 className="section__title">About Me</h2>
@@ -14,7 +15,7 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">I have a strong background as a Data Engineer, working with databases like MySQL, PostgreSQL, and MongoDB, along with tools like Apache Airflow, Hadoop, and Spark. I’m comfortable with cloud platforms like AWS and Google Cloud, which help me design and optimize backend systems. My focus is always on improving data workflows and ensuring efficiency and accuracy in the solutions I build.</p>
-          <a download = "" href={CV} className="button button--flex">Download CV
+          <a target="_blank" rel="noopener noreferrer"  href={CV} className="button button--flex">View CV
           <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"

@@ -46,6 +46,7 @@
 
 .footer__social-link:hover {
   background-color: var(--title-color-dark);
+  cursor: pointer;
 }
 
 .footer__copy {
