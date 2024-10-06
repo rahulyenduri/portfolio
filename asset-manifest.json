@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.3bbade12.css",
+    "main.js": "/portfolio/static/js/main.a8df82cf.js",
+    "static/js/453.ed3810f9.chunk.js": "/portfolio/static/js/453.ed3810f9.chunk.js",
+    "static/media/rahuly.jpg": "/portfolio/static/media/rahuly.2b1bf3006e271c97410b.jpg",
+    "static/media/yendurirahul.jpg": "/portfolio/static/media/yendurirahul.79ec1f95ce10c251a1ce.jpg",
+    "static/media/project1.jpg": "/portfolio/static/media/project1.eaebbab81451f261b3b9.jpg",
+    "static/media/project6.png": "/portfolio/static/media/project6.d285fd548f2b8ce2f1ca.png",
+    "static/media/project4.jpg": "/portfolio/static/media/project4.a9cc5c2615be27ffc1df.jpg",
+    "static/media/project2.jpg": "/portfolio/static/media/project2.f62785ce37acc8062a79.jpg",
+    "static/media/project3.jpg": "/portfolio/static/media/project3.2b4a3bc608073462a7e1.jpg",
+    "static/media/Rahul_Yenduri_Resume.pdf": "/portfolio/static/media/Rahul_Yenduri_Resume.8d80a5cc487932d2a911.pdf",
+    "static/media/project5.jpg": "/portfolio/static/media/project5.7c559f38d089c0ac9785.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.3bbade12.css.map": "/portfolio/static/css/main.3bbade12.css.map",
+    "main.a8df82cf.js.map": "/portfolio/static/js/main.a8df82cf.js.map",
+    "453.ed3810f9.chunk.js.map": "/portfolio/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3bbade12.css",
+    "static/js/main.a8df82cf.js"
+  ]
+}
