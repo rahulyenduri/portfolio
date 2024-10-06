@@ -89,7 +89,6 @@ const Experience = () => {
         These projects enabled me to deepen my <strong>expertise in cloud technologies, particularly AWS</strong>, and solidified my role as a key contributor to technical innovations. Furthermore, I took pride in mentoring new team members, accelerating their ramp-up time while ensuring the delivery of high-quality solutions through a <strong>deep understanding of business challenges</strong>.
         </li>
         <li>My work also included creating <strong>comprehensive reports and design documents</strong> that facilitated seamless communication between internal teams and clients, ensuring alignment and clarity in project execution.</li>
-        <li>This version emphasizes the impact of your contributions in terms of time and cost savings while enhancing the overall tone to make it more engaging and result-oriented.</li>
         <strong></strong>
       </ul>
     </div>
