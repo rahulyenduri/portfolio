@@ -14,7 +14,7 @@ const About = () => {
         <img src={AboutImg} alt="" className="about__img"></img>
         <div className="about__data">
           <Info />
-          <p className="about__description">I have a strong background as a Data Engineer, working with databases like MySQL, PostgreSQL, and MongoDB, along with tools like Apache Airflow, Hadoop, and Spark. I’m comfortable with cloud platforms like AWS and Google Cloud, which help me design and optimize backend systems. My focus is always on improving data workflows and ensuring efficiency and accuracy in the solutions I build.</p>
+          <p className="about__description">I am a Masters Student from UCR majoring in Computer Science. I'm a dedicated and innovative software engineer with a strong background in developing robust and scalable applications. My experience at ZS has honed my skills in Python, SQL, and cloud platforms such as AWS, enabling me to design and implement effective solutions for complex problems. I thrive in dynamic environments where I can continuously learn and apply new technologies. My passion for contributing to impactful projects and my alignment with the goals of forward-thinking companies make me a valuable asset to any team. I am driven by the opportunity to be part of something transformative and to grow alongside the projects I work on.</p>
           <a target="_blank" rel="noopener noreferrer"  href={CV} className="button button--flex">View CV
           <svg
                 class="button__icon"
