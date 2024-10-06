@@ -75,7 +75,7 @@
 }
 
 .contact__form-input {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
@@ -105,6 +105,23 @@
 
 .contact__form-area textarea{
   resize: none;
+}
+
+.error {
+  color: red;
+  font-size: 0.75rem;
+  position: relative;
+  z-index: 0;
+  display: block;
+}
+
+.error__message {
+  margin-top: -6px;
+  color: red;
+  font-size: 0.75rem;
+  position: relative;
+  z-index: 0;
+  display: block;
 }
 
 /*=============== BREAKPOINTS ===============*/
