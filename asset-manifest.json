@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3bbade12.css",
-    "main.js": "/portfolio/static/js/main.a8df82cf.js",
+    "main.css": "/portfolio/static/css/main.93d562da.css",
+    "main.js": "/portfolio/static/js/main.5793d526.js",
     "static/js/453.ed3810f9.chunk.js": "/portfolio/static/js/453.ed3810f9.chunk.js",
     "static/media/rahuly.jpg": "/portfolio/static/media/rahuly.2b1bf3006e271c97410b.jpg",
     "static/media/yendurirahul.jpg": "/portfolio/static/media/yendurirahul.79ec1f95ce10c251a1ce.jpg",
@@ -13,12 +13,12 @@
     "static/media/Rahul_Yenduri_Resume.pdf": "/portfolio/static/media/Rahul_Yenduri_Resume.8d80a5cc487932d2a911.pdf",
     "static/media/project5.jpg": "/portfolio/static/media/project5.7c559f38d089c0ac9785.jpg",
     "index.html": "/portfolio/index.html",
-    "main.3bbade12.css.map": "/portfolio/static/css/main.3bbade12.css.map",
-    "main.a8df82cf.js.map": "/portfolio/static/js/main.a8df82cf.js.map",
+    "main.93d562da.css.map": "/portfolio/static/css/main.93d562da.css.map",
+    "main.5793d526.js.map": "/portfolio/static/js/main.5793d526.js.map",
     "453.ed3810f9.chunk.js.map": "/portfolio/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bbade12.css",
-    "static/js/main.a8df82cf.js"
+    "static/css/main.93d562da.css",
+    "static/js/main.5793d526.js"
   ]
 }
