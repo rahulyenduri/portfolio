@@ -102,7 +102,7 @@ const ProjectTile = ({ project }) => {
   return (
     <div className="project-tile">
       <img src={project.image} alt={project.title} className="project-image" />
-      <h3>{project.title}</h3>
+      <h3 className="project__title">{project.title}</h3>
       <div className="project-footer">
         <span className="view-more" onClick={openModal}>View More</span>
         <a href={project.github} target="_blank" rel="noopener noreferrer" className="view-code">View Code</a>
